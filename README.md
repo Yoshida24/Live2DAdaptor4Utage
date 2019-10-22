@@ -17,10 +17,13 @@ https://docs.live2d.com/cubism-sdk-tutorials/blendexpression/?locale=ja
 
 ## 使用イメージ
 
+```
 |Command | Arg1 | Arg2 |
 |Pose | Default | 1 |
+```
 
-本スクリプトを入れると上記でWeit付きで対応しているPose切り替えスクリプトを呼べるようになる。
+上記のような感じで、対応しているPose切り替えスクリプトを呼べるようになる。Weitにも対応している。
+
 また、Pose切り替えのロジック部分は宴のスクリプトとは切り離されているので、モデルが完成していなくても代わりにテストコードを使うことで開発を進めることができる。
 
 ## 使い方
@@ -29,8 +32,11 @@ https://docs.live2d.com/cubism-sdk-tutorials/blendexpression/?locale=ja
 3. 本プロジェクトを入れる。
 4. Utage3のAdvシーンでHierarchyからAdvEngineを探し、Live2DCustomCommand.csをアタッチ
 5. 下記を書き込む。シナリオを実行し、ログが表示されれば成功
+
+```
 |Command | Arg1 | Arg2 |
 |Pose | Default | 1 |
+```
 
 ## カスタマイズ
 
